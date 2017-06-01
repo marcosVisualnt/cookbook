@@ -181,6 +181,7 @@ return [
             Orchestra\Parser\XmlServiceProvider::class,
             Barryvdh\Debugbar\ServiceProvider::class,
 
+            Laravel\Socialite\SocialiteServiceProvider::class,
 
 
     ],
@@ -231,8 +232,10 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+            
             'XmlParser' => Orchestra\Parser\Xml\Facade::class,
             'Debugbar' => Barryvdh\Debugbar\Facade::class,
+            'Socialite' => Laravel\Socialite\Facades\Socialite::class,
 
 
 

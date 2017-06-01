@@ -19,10 +19,13 @@ Route::get('pepe', function () {
 });
 
 
-Route::get('/xmlparse', 'xmlparseController@leerUrlVnt');
 
 
 Route::get('/', 'PagesController@home');
 
 Route::get('/about', 'PagesController@about');
 Route::get('/contact', 'PagesController@contact');
+
+
+Route::get('/xmlparse2', 'PagesController@leerUrlVnt');
+Route::get('/xmlparse', 'xmlparseController@leerUrlVnt');
